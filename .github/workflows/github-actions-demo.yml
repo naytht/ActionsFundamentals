@@ -50,7 +50,7 @@ jobs:
 
   Production:
     runs-on: ubuntu-latest
-    if: github.event.input.environment == 'Production'
+    if: github.event.inputs.environment == 'Production'
     needs: [Test,Load-Test]
     environment: 
       name: Production
