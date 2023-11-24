@@ -11,7 +11,7 @@ on:
     inputs:
       environment:
         description: 'Deploying to:'
-        type: production
+        type: environment
         required: true
   
 jobs:
