@@ -60,7 +60,7 @@ jobs:
           echo "Step 1 deploying..."
           sleep 10
       - run: |
-          echo "Step 3 deploying..."
+          echo "Step 2 deploying..."
           sleep 10
       - run: |
           echo "Step 3 deploying..."
