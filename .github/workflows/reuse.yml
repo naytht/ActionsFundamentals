@@ -1,11 +1,12 @@
 name: Reuse other workflow
+
 on: [workflow_dispatch]
 
 jobs:
   call-workflow:
-    uses: ActionsFundamentals/.github/workflows/reusable.yml
+    uses: ./.github/workflows/reusable.yml
     with:
-      who-to-greet: '@naytht'
+      who-to-greet: '@octocat'
 
   use-output:
     runs-on: ubuntu-latest
